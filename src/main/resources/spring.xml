@@ -13,10 +13,9 @@
     <!-- 引入属性文件，一般必选 -->  
     <context:property-placeholder location="classpath:config.properties" />  
     
-    <!-- 自动扫描包(自动注入) --> 
+    <!-- 自动扫描包(自动装配和自动注入) --> 
     <context:component-scan base-package="basespring" />  
     
-     
     <!-- 手动配置service -->
     <bean id="userService" class="basespring.service.impl.UserServiceImpl"></bean>
     
