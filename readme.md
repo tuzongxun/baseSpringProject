@@ -1,4 +1,4 @@
-# 一个最基础的spring-mvc框架
+# 一个最基础的spring-mvc项目
 ## 创建原因
 本项目很简单，是一个最基础的spring mvc项目，创建原因如下：
 1. 近期有同事欲学习spring-mvc，希望找一个只包含spring-mvc的基础项目做参考
