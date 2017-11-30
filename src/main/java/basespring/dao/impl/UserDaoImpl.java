@@ -10,7 +10,7 @@ public class UserDaoImpl implements UserDao {
 
 	@Override
 	public UserModel findUserByName(String name) {
-		System.out.println("²éÑ¯Ìõ¼ş£º" + name);
+		System.out.println("æŸ¥è¯¢å‚æ•°ï¼š" + name);
 		UserModel user = new UserModel();
 		user.setAge(22);
 		user.setName(name);

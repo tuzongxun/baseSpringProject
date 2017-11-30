@@ -14,10 +14,10 @@ public class UserController {
 	@Autowired
 	UserService userService;
 
-	@RequestMapping(value = "userInfo", method = RequestMethod.GET)
+	@RequestMapping(value = "userInfo", method = RequestMethod.GET, produces = "application/json; charset=utf-8")
 	public String index() {
-		System.out.println("ÊÕµ½ÇëÇó");
-		UserModel user = userService.findUserByName("zhangsan");
+		System.out.println("æ”¶åˆ°å‰ç«¯è¯·æ±‚");
+		UserModel user = userService.findUserByName("å¼ ä¸‰");
 		System.out.println(user);
 		return user.toString();
 	}

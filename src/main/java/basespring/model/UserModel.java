@@ -1,7 +1,7 @@
 package basespring.model;
 
 /**
- * ÓÃ»§ÊµÌåÀà
+ * ç”¨æˆ·å®ä½“ç±»
  * 
  * @author tzx
  *
