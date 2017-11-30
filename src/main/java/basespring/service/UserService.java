@@ -1,5 +1,7 @@
 package basespring.service;
 
-public interface UserService {
+import basespring.model.UserModel;
 
+public interface UserService {
+	public UserModel findUserByName(String name);
 }
